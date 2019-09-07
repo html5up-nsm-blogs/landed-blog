@@ -8,7 +8,7 @@
 	<head>
 		@input(template/head.content)
 	</head>
-	<body class="is-preload landing">
+	<body class="is-preload landing" onload="setup()">
 		<div id="page-wrapper">
 			@input(template/menu.content)
 
