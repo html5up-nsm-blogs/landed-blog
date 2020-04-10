@@ -85,33 +85,33 @@
 					You can also do syntax highlighting outside of markdown blocks using [Google Code Prettify](https://github.com/google/code-prettify), Eg.:
 				</textarea>
 
-				<pre class="background prettyprint linenums">
-					#include <cstdio>
-					#include <iostream>
+<pre class="background prettyprint linenums">
+#include <cstdio>
+#include <iostream>
 
-					int main()
-					{
-						std::cout << "hello, world!" << std::endl;
+int main()
+{
+	std::cout << "hello, world!" << std::endl;
 
-						return 0;
-					}
-				</pre>
+	return 0;
+}
+</pre>
 
 				<p>
 					The following is how to do a <b>pre</b> block without syntax highlighting outside markdown blocks, Eg.:
 				</p>
 
-				<pre class="background">
-					#include <cstdio>
-					#include <iostream>
+<pre class="background">
+#include <cstdio>
+#include <iostream>
 
-					int main()
-					{
-						std::cout << "hello, world!" << std::endl;
+int main()
+{
+	std::cout << "hello, world!" << std::endl;
 
-						return 0;
-					}
-				</pre>
+	return 0;
+}
+</pre>
 			</section>
 		</div>
 	</div>
