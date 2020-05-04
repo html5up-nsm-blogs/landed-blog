@@ -138,9 +138,12 @@ pre
 	min-width: 130px !important;
 	max-width: 90%;
 	overflow: auto;
+	margin: 0 auto;
+	margin-top: -10px;
+	margin-bottom: 15px;
 
 	font-family:'Monaco', 'Menlo', courier, monospace;
-	font-size: 0.8em;
+	font-size: 0.9em;
 
 	padding-left: 10px !important; 
 	padding-right:10px !important;
@@ -148,37 +151,4 @@ pre
 	padding-bottom:10px !important;
 
 	border: 1px solid #a39e8e !important;
-}
-
-pre-old
-{
-	-webkit-overflow-scrolling: touch;
-	background-color: #363331;
-	border: solid 1px #e5e5e5;
-	font-family: monospace;
-	font-size: 0.8em;
-	line-height: 1.5em;
-	margin: 0 0 2em 0;
-	padding: 1em 1.5em;
-	border-radius: 5px;
-
-	display: block;
-	text-align:left !important;
-	color: white !important;
-
-	/*picks the first available font and resizes*/
-	font-family: DejaVu Sans Mono, Liberation Mono, Consolas, Ubuntu Mono, Courier New;
-	tab-size: 4;
-
-	max-width: 90%;
-	overflow: auto;
-	
-	margin: 0 auto;
-	margin-top: 0px !important;
-	margin-bottom: 0px !important;
-
-	padding-left: 8px !important; 
-	padding-right:5px !important;
-	padding-top:0 !important;
-	padding-bottom:0 !important;
 }
