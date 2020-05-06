@@ -8,8 +8,8 @@
 			</header>
 			<span class="image"><img src="@pathtofile($[output-dir]/images/pic01.jpg)" alt="" /></span>
 		</div>
-		<span class="image fit main"><img src="@pathtofile($[output-dir]/images/pic02.jpg)" alt="" height="150px" /></span>
 	</section>
+	<span class="image fit main"><img src="@pathtofile($[output-dir]/images/colours.png)" alt="" height="150px" style="opacity:0.7"/></span>
 
 <!-- Main -->
 	<div id="main" class="wrapper style1">
