@@ -57,6 +57,13 @@ table {
 	border-spacing: 0;
 }
 
+#posts_table
+{
+	background-color: #272833; 
+	margin-bottom: 10px; 
+	border-radius: 5px
+}
+
 body {
 	-webkit-text-size-adjust: none;
 }
@@ -116,7 +123,7 @@ input, select, textarea {
 		-webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
+		/*border-bottom: dotted 1px;*/
 		color: #e44c65;
 		text-decoration: none;
 	}
@@ -2768,18 +2775,38 @@ input, select, textarea {
 		margin: 0 auto;
 	}
 
+	td
+	{
+		border: solid 0px rgba(255, 255, 255, 0.125);
+	}
+
+	table tr:first-child td:first-child {
+	    border-top-left-radius: 5px;
+	}
+
+	table tr:first-child td:last-child {
+	    border-top-right-radius: 5px;
+	}
+
+	table tr:last-child td:first-child {
+	    border-bottom-left-radius: 5px;
+	}
+
+	table tr:last-child td:last-child {
+	    border-bottom-right-radius: 5px;
+	}
+
 		table tbody tr {
-			border: solid 1px rgba(255, 255, 255, 0.3);
 			border-left: 0;
 			border-right: 0;
 		}
 
-			table tbody tr:nth-child(2n + 1) {
-				background-color: rgba(255, 255, 255, 0.075);
+			table tbody tr {
+				background-color: #272833;
 			}
 
 		table td {
-			padding: 0.75em 0.75em;
+			padding: 0.6em 0.6em;
 		}
 
 		table th {
